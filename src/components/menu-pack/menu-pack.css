@@ -1,0 +1,39 @@
+.filter-btn {
+    border: 1px solid #F76E11;
+    padding: 7px 25px;
+    background: transparent;
+    margin-left: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.filter-btn:hover {
+    background-color: #F76E11;
+    
+}
+
+.menu__title {
+    color: #F5B70A; 
+}
+
+.active__btn {
+    background: #F76E11;
+}
+
+@media only screen and (max-width: 992){
+    .menu__title {
+        font-size: 1.5rem;
+    }
+    .filter-btn {
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .filter-btn {
+        margin-bottom: 15px;
+    }
+}
